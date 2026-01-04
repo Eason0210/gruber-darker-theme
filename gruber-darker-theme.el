@@ -407,6 +407,12 @@
    `(orderless-match-face-1 ((t (:foreground ,gruber-darker-green))))
    `(orderless-match-face-2 ((t (:foreground ,gruber-darker-brown))))
    `(orderless-match-face-3 ((t (:foreground ,gruber-darker-quartz))))
+
+   ;; diff-hl
+   `(diff-hl-insert ((t (:inherit diff-added))))
+   `(diff-hl-change ((t (:background nil :foreground ,gruber-darker-niagara))))
+   `(diff-hl-delete ((t (:inherit diff-removed))))
+
    ))
 
 ;;;###autoload
