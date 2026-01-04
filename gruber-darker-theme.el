@@ -419,7 +419,6 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
-;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
 ;;; gruber-darker-theme.el ends here.
