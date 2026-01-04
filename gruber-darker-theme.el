@@ -413,6 +413,10 @@
    `(diff-hl-change ((t (:background nil :foreground ,gruber-darker-niagara))))
    `(diff-hl-delete ((t (:inherit diff-removed))))
 
+   ;; breadcrumb
+   `(breadcrumb-face ((t (:background ,gruber-darker-bg+1 :foreground ,gruber-darker-fg))))
+   `(breadcrumb-project-leaf-face ((t (:inherit mode-line-buffer-id :bold t))))
+
    ))
 
 ;;;###autoload
