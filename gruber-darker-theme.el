@@ -304,6 +304,8 @@
                                     :foreground gruber-darker-white))))
    `(mode-line-inactive ((t ,(list :background gruber-darker-bg+1
                                    :foreground gruber-darker-quartz))))
+   ;; header-line
+   `(header-line ((t (:inherit mode-line))))
 
    ;; Neo Dir
    `(neo-dir-link-face ((t (:foreground ,gruber-darker-niagara))))
