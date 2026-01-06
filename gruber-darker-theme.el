@@ -324,12 +324,21 @@
    `(neo-dir-link-face ((t (:foreground ,gruber-darker-niagara))))
 
    ;; Org Mode
-   `(org-agenda-structure ((t (:foreground ,gruber-darker-niagara))))
+   `(org-agenda-done ((t (:foreground ,gruber-darker-green))))
+   `(org-agenda-structure ((t (:foreground ,gruber-darker-niagara :height 1.1))))
+   `(org-block ((t (:background ,gruber-darker-bg+1))))
+   `(org-block-begin-line ((t (:foreground ,gruber-darker-bg+4 :slant italic))))
+   `(org-block-end-line ((t (:foreground ,gruber-darker-bg+4 :slant italic))))
+   `(org-code ((t (:foreground ,gruber-darker-yellow-1))))
    `(org-column ((t (:background ,gruber-darker-bg-1))))
    `(org-column-title ((t (:background ,gruber-darker-bg-1 :underline t :weight bold))))
+   `(org-document-title ((t (:foreground ,gruber-darker-wisteria :weight bold :height 1.4))))
+   `(org-document-info ((t (:foreground ,gruber-darker-green))))
+   `(org-document-info-keyword ((t (:foreground ,gruber-darker-bg+4))))
    `(org-done ((t (:foreground ,gruber-darker-green))))
    `(org-todo ((t (:foreground ,gruber-darker-red-1))))
    `(org-upcoming-deadline ((t (:foreground ,gruber-darker-yellow))))
+   `(org-scheduled-previously ((t (:foreground ,gruber-darker-orange))))
 
    ;; Search
    `(isearch ((t ,(list :foreground gruber-darker-black
