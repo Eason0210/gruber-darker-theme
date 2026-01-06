@@ -419,6 +419,9 @@
    `(breadcrumb-face ((t (:background ,gruber-darker-bg+1 :foreground ,gruber-darker-fg))))
    `(breadcrumb-project-leaf-face ((t (:inherit mode-line-buffer-id :bold t))))
 
+   ;; symbol-overlay
+   `(symbol-overlay-default-face ((t (:inherit highlight :underline t))))
+
    ))
 
 ;;;###autoload
