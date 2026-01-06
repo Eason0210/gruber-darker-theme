@@ -109,6 +109,7 @@
                                     :background gruber-darker-red))))
    `(tooltip ((t ,(list :background gruber-darker-bg+4
                         :foreground gruber-darker-white))))
+   `(error ((t (:foreground ,gruber-darker-red+1))))
 
    ;; Calendar
    `(holiday-face ((t (:foreground ,gruber-darker-red))))
