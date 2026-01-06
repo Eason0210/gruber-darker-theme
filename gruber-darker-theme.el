@@ -251,6 +251,14 @@
    ;; Info
    `(info-xref ((t (:foreground ,gruber-darker-niagara))))
    `(info-visited ((t (:foreground ,gruber-darker-wisteria))))
+   `(Info-quoted ((t (:inherit font-lock-constant-face))))
+   `(info-menu-header ((t (:foreground ,gruber-darker-green :weight bold :height 1.4))))
+   `(info-menu-star ((t (:foreground ,gruber-darker-yellow))))
+   `(info-node ((t (:foreground ,gruber-darker-green :weight bold :slant italic))))
+   `(info-title-1 ((t (:weight bold :height 1.4))))
+   `(info-title-2 ((t (:weight bold :height 1.2))))
+   `(info-title-3 ((t (:weight bold :foreground ,gruber-darker-brown))))
+   `(info-title-4 ((t (:weight bold :foreground ,gruber-darker-wisteria))))
 
    ;; Jabber
    `(jabber-chat-prompt-foreign ((t ,(list :foreground gruber-darker-quartz
