@@ -277,6 +277,8 @@
 
    ;; Magit
    `(magit-branch ((t (:foreground ,gruber-darker-niagara))))
+   `(magit-branch-local ((t (:foreground ,gruber-darker-niagara))))
+   `(magit-branch-remote ((t (:foreground ,gruber-darker-green))))
    `(magit-diff-hunk-header ((t (:background ,gruber-darker-bg+2))))
    `(magit-diff-file-header ((t (:background ,gruber-darker-bg+4))))
    `(magit-log-sha1 ((t (:foreground ,gruber-darker-red+1))))
