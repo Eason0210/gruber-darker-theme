@@ -425,6 +425,31 @@
    ;; symbol-overlay
    `(symbol-overlay-default-face ((t (:inherit highlight :underline t))))
 
+   ;; diredfl
+   `(diredfl-dir-heading ((t (:inherit dired-header))))
+   `(diredfl-dir-name ((t (:inherit dired-directory))))
+   `(diredfl-file-name ((t (:foreground ,gruber-darker-yellow ))))
+   `(diredfl-file-suffix ((t (:foreground ,gruber-darker-green))))
+   `(diredfl-flag-mark ((t (:inherit dired-mark))))
+   `(diredfl-flag-mark-line ((t (:background unspecified :inherit highlight))))
+   `(diredfl-deletion ((t (:inherit error :inverse-video t))))
+   `(diredfl-deletion-file-name ((t (:inherit error))))
+   `(diredfl-compressed-file-suffix ((t (:foreground ,gruber-darker-red))))
+   `(diredfl-compressed-file-name ((t (:foreground ,gruber-darker-red))))
+   `(diredfl-ignored-file-name ((t (:inherit dired-ignored))))
+   `(diredfl-symlink ((t (:foreground ,gruber-darker-wisteria))))
+   `(diredfl-number ((t (:foreground ,gruber-darker-brown))))
+   `(diredfl-date-time ((t (:foreground ,gruber-darker-wisteria))))
+   `(diredfl-no-priv ((t (:background unspecified))))
+   `(diredfl-dir-priv ((t (:inherit dired-directory))))
+   `(diredfl-read-priv ((t (:foreground ,gruber-darker-green :background unspecified))))
+   `(diredfl-write-priv ((t (:foreground ,gruber-darker-brown :background unspecified))))
+   `(diredfl-exec-priv ((t (:foreground ,gruber-darker-yellow :background unspecified))))
+   `(diredfl-executable-tag ((t (:foreground ,gruber-darker-brown :background unspecified))))
+   `(diredfl-link-priv ((t (:foreground ,gruber-darker-wisteria :background unspecified))))
+   `(diredfl-other-priv ((t (:foreground ,gruber-darker-quartz :background unspecified))))
+   `(diredfl-rare-priv ((t (:foreground ,gruber-darker-red :background unspecified))))
+
    ))
 
 ;;;###autoload
