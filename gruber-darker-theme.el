@@ -446,7 +446,7 @@
    `(symbol-overlay-default-face ((t (:inherit highlight :underline t))))
 
    ;; diredfl
-   `(diredfl-dir-heading ((t (:inherit dired-header))))
+   `(diredfl-dir-heading ((t (:inherit font-lock-string-face))))
    `(diredfl-dir-name ((t (:inherit dired-directory))))
    `(diredfl-file-name ((t (:foreground ,gruber-darker-yellow ))))
    `(diredfl-file-suffix ((t (:foreground ,gruber-darker-green))))
