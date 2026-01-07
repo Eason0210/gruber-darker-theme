@@ -339,6 +339,7 @@
    `(org-todo ((t (:foreground ,gruber-darker-red-1))))
    `(org-upcoming-deadline ((t (:foreground ,gruber-darker-yellow))))
    `(org-scheduled-previously ((t (:foreground ,gruber-darker-orange))))
+   `(org-table ((t (:foreground ,gruber-darker-wisteria))))
 
    ;; Search
    `(isearch ((t ,(list :foreground gruber-darker-black
