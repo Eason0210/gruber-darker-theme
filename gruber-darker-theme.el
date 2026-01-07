@@ -469,6 +469,11 @@
    `(diredfl-other-priv ((t (:foreground ,gruber-darker-quartz :background unspecified))))
    `(diredfl-rare-priv ((t (:foreground ,gruber-darker-red :background unspecified))))
 
+   ;; Outline (built-in)
+   `(outline-2 ((t (:foreground ,gruber-darker-yellow))))
+   `(outline-3 ((t (:foreground ,gruber-darker-green))))
+   `(outline-6 ((t (:foreground ,gruber-darker-niagara))))
+
    ))
 
 ;;;###autoload
