@@ -493,6 +493,19 @@
    `(outline-3 ((t (:foreground ,gruber-darker-green))))
    `(outline-6 ((t (:foreground ,gruber-darker-niagara))))
 
+   ;; Rainbow-delimiters (borrowed from `leuven-dark-theme')
+   `(rainbow-delimiters-depth-1-face ((t (:foreground "#938e84"))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground "#907733"))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground "#736e84"))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground "#936797"))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground "#738c94"))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground "#a1894f"))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground "#7e7a87"))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground "#835787"))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground "#7b8f97"))))
+   `(rainbow-delimiters-mismatched-face ((t (:underline t :background "#065a64"))))
+   `(rainbow-delimiters-unmatched-face ((t (:underline t :background "#065a64"))))
+
    ))
 
 ;;;###autoload
