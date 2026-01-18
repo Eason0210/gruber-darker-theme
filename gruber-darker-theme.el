@@ -346,9 +346,9 @@
                         :background gruber-darker-fg+2))))
    `(isearch-fail ((t ,(list :foreground gruber-darker-black
                              :background gruber-darker-red))))
-   `(isearch-lazy-highlight-face ((t ,(list
-                                       :foreground gruber-darker-fg+1
-                                       :background gruber-darker-niagara-1))))
+   `(lazy-highlight ((t ,(list
+                          :foreground gruber-darker-fg+1
+                          :background gruber-darker-niagara-1))))
 
    ;; Sh
    `(sh-quoted-exec ((t (:foreground ,gruber-darker-red+1))))
