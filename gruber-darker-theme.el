@@ -516,7 +516,6 @@
 (provide-theme 'gruber-darker)
 
 ;; Local Variables:
-;; no-byte-compile: t
 ;; indent-tabs-mode: nil
 ;; End:
 
