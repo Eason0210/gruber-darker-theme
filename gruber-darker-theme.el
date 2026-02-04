@@ -489,9 +489,14 @@
    `(diredfl-rare-priv ((t (:foreground ,gruber-darker-red :background unspecified))))
 
    ;; Outline (built-in)
+   `(outline-1 ((t (:foreground ,gruber-darker-niagara))))
    `(outline-2 ((t (:foreground ,gruber-darker-yellow))))
    `(outline-3 ((t (:foreground ,gruber-darker-green))))
+   `(outline-4 ((t (:foreground ,gruber-darker-brown))))
+   `(outline-5 ((t (:foreground ,gruber-darker-quartz))))
    `(outline-6 ((t (:foreground ,gruber-darker-niagara))))
+   `(outline-7 ((t (:foreground ,gruber-darker-yellow))))
+   `(outline-8 ((t (:foreground ,gruber-darker-green))))
 
    ;; Rainbow-delimiters (borrowed from `leuven-dark-theme')
    `(rainbow-delimiters-depth-1-face ((t (:foreground "#938e84"))))
