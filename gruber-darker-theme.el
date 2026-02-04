@@ -498,6 +498,11 @@
    `(outline-7 ((t (:foreground ,gruber-darker-yellow))))
    `(outline-8 ((t (:foreground ,gruber-darker-green))))
 
+   ;; Window-divider (built-in)
+   `(window-divider ((t (:foreground ,gruber-darker-bg+4))))
+   `(window-divider-first-pixel ((t (:foreground ,gruber-darker-bg+4))))
+   `(window-divider-last-pixel ((t (:foreground ,gruber-darker-bg+4))))
+
    ;; Rainbow-delimiters (borrowed from `leuven-dark-theme')
    `(rainbow-delimiters-depth-1-face ((t (:foreground "#938e84"))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground "#907733"))))
