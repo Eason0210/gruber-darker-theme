@@ -455,6 +455,8 @@
    `(diff-hl-insert ((t (:inherit diff-added :background "dark green"))))
    `(diff-hl-change ((t (:background ,gruber-darker-niagara-1 :foreground ,gruber-darker-niagara))))
    `(diff-hl-delete ((t (:inherit diff-removed :background ,gruber-darker-red-1))))
+   `(diff-hl-dired-ignored ((t (:inherit dired-ignored :background ,gruber-darker-bg+2))))
+   `(diff-hl-dired-unknown ((t (:inherit diff-hl-dired-ignored))))
 
    ;; breadcrumb
    `(breadcrumb-face ((t (:background ,gruber-darker-bg+1 :foreground ,gruber-darker-fg))))
