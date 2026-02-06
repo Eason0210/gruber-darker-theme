@@ -452,9 +452,9 @@
    `(orderless-match-face-3 ((t (:foreground ,gruber-darker-quartz))))
 
    ;; diff-hl
-   `(diff-hl-insert ((t (:inherit diff-added))))
-   `(diff-hl-change ((t (:background unspecified :foreground ,gruber-darker-niagara))))
-   `(diff-hl-delete ((t (:inherit diff-removed))))
+   `(diff-hl-insert ((t (:inherit diff-added :background "dark green"))))
+   `(diff-hl-change ((t (:background ,gruber-darker-niagara-1 :foreground ,gruber-darker-niagara))))
+   `(diff-hl-delete ((t (:inherit diff-removed :background ,gruber-darker-red-1))))
 
    ;; breadcrumb
    `(breadcrumb-face ((t (:background ,gruber-darker-bg+1 :foreground ,gruber-darker-fg))))
