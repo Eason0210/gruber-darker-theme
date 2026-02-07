@@ -60,7 +60,7 @@
       (gruber-darker-brown     "#cc8c3c")
       (gruber-darker-quartz    "#95a99f")
       (gruber-darker-niagara-2 "#303540")
-      (gruber-darker-niagara-1 "#565f73")
+      (gruber-darker-niagara-1 "#5f607e")
       (gruber-darker-niagara   "#96a6c8")
       (gruber-darker-wisteria  "#9e95c7")
       )
