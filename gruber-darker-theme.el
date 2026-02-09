@@ -309,6 +309,10 @@
 
    ;; Message
    `(message-header-name ((t (:foreground ,gruber-darker-green))))
+   `(message-header-subject ((t (:foreground ,gruber-darker-niagara))))
+   `(message-header-to ((t (:foreground ,gruber-darker-yellow))))
+   `(message-header-other ((t (:foreground ,gruber-darker-fg))))
+   `(message-separator ((t (:foreground ,gruber-darker-wisteria))))
 
    ;; Mode Line
    `(mode-line ((t ,(list :background gruber-darker-bg+1
