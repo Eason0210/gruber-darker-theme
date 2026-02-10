@@ -520,11 +520,6 @@
    `(rainbow-delimiters-mismatched-face ((t (:underline t :background "#065a64"))))
    `(rainbow-delimiters-unmatched-face ((t (:underline t :background "#065a64"))))
 
-   ;; Yasnippet
-   `(yas-field-highlight-face ((t (:box (:line-width 1 :color ,gruber-darker-bg+4)
-                                        :foreground ,gruber-darker-fg
-                                        :background ,gruber-darker-bg+1))))
-
    ))
 
 ;;;###autoload
