@@ -494,13 +494,13 @@
 
    ;; Outline (built-in)
    `(outline-1 ((t (:foreground ,gruber-darker-niagara))))
-   `(outline-2 ((t (:foreground ,gruber-darker-yellow))))
-   `(outline-3 ((t (:foreground ,gruber-darker-green))))
+   `(outline-2 ((t (:foreground ,gruber-darker-green))))
+   `(outline-3 ((t (:foreground ,gruber-darker-yellow))))
    `(outline-4 ((t (:foreground ,gruber-darker-wisteria))))
    `(outline-5 ((t (:foreground ,gruber-darker-brown))))
    `(outline-6 ((t (:foreground ,gruber-darker-quartz))))
-   `(outline-7 ((t (:foreground ,gruber-darker-green))))
-   `(outline-8 ((t (:foreground ,gruber-darker-yellow))))
+   `(outline-7 ((t (:foreground ,gruber-darker-yellow))))
+   `(outline-8 ((t (:foreground ,gruber-darker-green))))
 
    ;; Window-divider (built-in)
    `(window-divider ((t (:foreground ,gruber-darker-bg+4))))
