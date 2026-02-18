@@ -519,6 +519,15 @@
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,gruber-darker-wisteria))))
    `(rainbow-delimiters-unmatched-face ((t (:foregound ,gruber-darker-red))))
 
+   ;; shr (eww)
+   `(shr-code ((t (:inherit font-lock-constant-face))))
+   `(shr-h1 ((t (:inherit outline-1))))
+   `(shr-h2 ((t (:inherit outline-2))))
+   `(shr-h3 ((t (:inherit outline-3))))
+   `(shr-h4 ((t (:inherit outline-4))))
+   `(shr-h5 ((t (:inherit outline-5))))
+   `(shr-h6 ((t (:inherit outline-6))))
+
    ))
 
 ;;;###autoload
